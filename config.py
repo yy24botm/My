@@ -5,27 +5,28 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID", "7452578")) #لا تغير هاذة القيمة
-API_HASH = getenv("API_HASH", "061d67ee8eed9368c5cadabb4aa21efc")#لا تغير هاذة القيمة
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_NAME = getenv("SESSION_NAME", "")
+API_ID = int(getenv("API_ID", "22151516")) #لا تغير هاذة القيمة
+API_HASH = getenv("API_HASH",2804a8f5ce03cdcd7ab46ce6df78f386 ")#لا تغير هاذة القيمة
+BOT_TOKEN = getenv("BOT_TOKEN", "6013649960:AAHWJNgDwJnn1M-zujjvlO_G_0AYrqh_NOA")
+SESSION_NAME = getenv("SESSION_NAME", "AgFSAVwAd6xDd0EykaI_JBcDYxKZHn_N0Uw25aJKzigAxj07GLAxq_eQoqtlX4Jq8RX01uvlf2_y9IUmZ7MVC95PNacGXYUdXPRhQJ61m1MhCqo1c2JOsaBOxWyjZBkJQgEqsrFPYNeh1Wo0yBz9Gv0s7T5p5PJGkhROtR9yeSHHgf040PJm_zYPvllNDeHK00tP7BlAW-5wiKPTeXa5y0xoYDHAff-to9aVR75dz5cZTIyMuaz7Q04GBOUH7ZM3Fq3Kn7QJDHsyAlpEnyGnE70rwn6WMdkqX2cSEL_aKptU4ITIXsb0ebZBuyYCg3QCGtaN3T39FLuYw9HzkRAYQM8-MLMjjQAAAABUg45WAA")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "rr8r9") # @ هنا ضع يوزر حسابك بدون 
-ALIVE_NAME = getenv("ALIVE_NAME", "sonng") # هنا ضع اسم حسابك
-BOT_USERNAME = getenv("BOT_USERNAME", "") # @ هنا ضع يوزر البوت بدون 
+OWNER_USERNAME = getenv("OWNER_USERNAME",B9_R3 ) # @ هنا ضع يوزر حسابك بدون 
+OWNER_USERNAME = getenv("OWNER_USERNAME", B9_R3) # @ هنا ضع يوزر حسابك بدون 
+ALIVE_NAME = getenv("ALIVE_NAME", "mhmd") # هنا ضع اسم حسابك
+BOT_USERNAME = getenv("BOT_USERNAME", "yy30bot") # @ هنا ضع يوزر البوت بدون 
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/X02lx/RrRRR") 
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main") #لا تغير هاذة القيمة
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60")) #لا تغير هاذة القيمة
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "rr8r9") # @ هنا ضغ يوزر كروبك بدون 
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "xl444") # @ هنا ضغ يوزر قناتك بدون
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "") # @ هنا ضغ يوزر كروبك بدون 
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")yy24B# @ هنا ضغ يوزر قناتك بدون
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1854384004").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1417907798").split()))
                                              #هنا ضع ايدي المطور فوق و الاعلئ
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1854384004").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1417907798").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
